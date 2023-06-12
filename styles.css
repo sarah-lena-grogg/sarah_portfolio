@@ -4,8 +4,13 @@
 
 .banner {
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
     font-family: 'Times New Roman', Times, serif;
     color: #139A5F;
     font-weight: bolder;
+}
+
+.banner > h1 {
+    flex: 1;
 }
